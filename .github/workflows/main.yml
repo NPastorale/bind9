@@ -20,5 +20,5 @@ jobs:
       - name: Build the image
         run: |
           docker buildx build --push \
-            --tag npastorale/kubernetes-bind:latest \
+            --tag npastorale/bind9:latest \
             --platform linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v6 .
