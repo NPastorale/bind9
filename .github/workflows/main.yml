@@ -6,7 +6,7 @@ on:
       - "v*.*.*"
 
 jobs:
-  call-workflow-passing-data:
+  multiarch-build:
     uses: npastorale/workflows/.github/workflows/multiarch-build.yaml@master
     with:
       username: npastorale
