@@ -1,4 +1,4 @@
-FROM alpine:3.15.1
+FROM alpine:3.16.0
 LABEL maintainer="npastorale@gmail.com"
 
 RUN apk update && \
